@@ -1,3 +1,9 @@
+Integrantes:
+            Caceres, Solange
+            Chemin Viera, Juan Cruz
+            Guasch Vives, Lautaro
+            Robles, Manuel
+
 # Calc
 
 Calculadora con funciones simples.
