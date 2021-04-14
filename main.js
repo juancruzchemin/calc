@@ -1,3 +1,4 @@
+const { exit } = require("process");
 const fns = require("./fns.js");
 
 const readline = require("readline").createInterface({
@@ -11,7 +12,7 @@ function loop() {
         (fnName) => {
             if (fnName === "exit") {
                 console.log("👋👋👋");
-                return readline.close();
+                return readline.close();   
             }
 
             const fn = fns[fnName];
